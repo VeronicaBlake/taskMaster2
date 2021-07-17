@@ -1,7 +1,7 @@
-// import ListsController from "./Controllers/ListsController.js";
+import ListsController from "./Controllers/ListsController.js";
 
 class App {
-  // listsController = new ListsController();
+  listsController = new ListsController();
   // tasksController = new TasksController()
 }
 
