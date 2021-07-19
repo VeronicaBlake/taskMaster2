@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #347ef5;
+  --blue: #4e92ff;
   --indigo: indigo;
   --purple: #c85dc8;
   --pink: #f08f9f;
@@ -9895,7 +9895,7 @@ h3 {
 }
 .bg-blue {
   color: white;
-  background-color: #347ef5;
+  background-color: #4e92ff;
 }
 
 .bg-indigo {
@@ -9960,27 +9960,27 @@ h3 {
 
 .bg-blue.darken-0 {
   color: white;
-  background-color: #347ef5;
+  background-color: #4e92ff;
 }
 
 .bg-blue.darken-10 {
   color: white;
-  background-color: #0c61ea;
+  background-color: #1b73ff;
 }
 
 .bg-blue.darken-20 {
   color: white;
-  background-color: #094dba;
+  background-color: #0059e7;
 }
 
 .bg-blue.darken-30 {
   color: white;
-  background-color: #073989;
+  background-color: #0045b4;
 }
 
 .bg-blue.darken-40 {
   color: white;
-  background-color: #042559;
+  background-color: #003281;
 }
 
 .bg-indigo.darken-0 {
@@ -10285,27 +10285,27 @@ h3 {
 
 .bg-blue.lighten-0 {
   color: white;
-  background-color: #347ef5;
+  background-color: #4e92ff;
 }
 
 .bg-blue.lighten-10 {
   color: #212529;
-  background-color: #659df7;
+  background-color: #81b1ff;
 }
 
 .bg-blue.lighten-20 {
   color: #212529;
-  background-color: #95bcfa;
+  background-color: #b4d1ff;
 }
 
 .bg-blue.lighten-30 {
   color: #212529;
-  background-color: #c6dbfc;
+  background-color: #e7f0ff;
 }
 
 .bg-blue.lighten-40 {
   color: #212529;
-  background-color: #f6faff;
+  background-color: white;
 }
 
 .bg-indigo.lighten-0 {
@@ -10712,7 +10712,7 @@ main {
 }
 
 .Blue {
-  background-color: #347ef5;
+  background-color: #4e92ff;
 }
 
 /*# sourceMappingURL=main.css.map */
