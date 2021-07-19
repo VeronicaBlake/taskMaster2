@@ -11,9 +11,10 @@ let lists = ProxyState.lists
 
 export default class ListController{
     constructor() {
-        ProxyState.on('lists', _draw)
-        ProxyState.on('lists', saveState)
-
+        ProxyState.on('lists', _draw);
+        ProxyState.on('lists', saveState);
+        ProxyState.on('tasks', _draw);
+        ProxyState.on('tasks', saveState)
         loadState()
     }
 
@@ -38,13 +39,13 @@ export default class ListController{
         listsService.destroyList(id)
     }
 
-    addTask(listId){
+    addTask(id){
         //this will be triggered on the task form submit 
         event.preventDefault()
         let form = event.target
         let rawTask = {
-            listId, 
-            name: form.task.value
+            listId: id,
+            name: form.name.value
         }
         listsService.addTask(rawTask)
         form.reset()

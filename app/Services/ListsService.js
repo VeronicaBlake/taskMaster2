@@ -1,5 +1,6 @@
 import { ProxyState } from "../AppState.js";
 import List from "../Models/List.js"
+import Task from "../Models/Task.js"
 
 class ListsService{
     //passed rawList and called function from the controller
