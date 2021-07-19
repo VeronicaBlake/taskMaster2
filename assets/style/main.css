@@ -6,12 +6,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: blue;
+  --blue: #347ef5;
   --indigo: indigo;
-  --purple: purple;
-  --pink: pink;
+  --purple: #c85dc8;
+  --pink: #f08f9f;
   --red: red;
-  --orange: #fbba40;
+  --orange: #f5b030;
   --yellow: yellow;
   --green: #50b950;
   --teal: teal;
@@ -495,7 +495,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: pink;
+  color: #f08f9f;
   word-wrap: break-word;
 }
 a > code {
@@ -9895,7 +9895,7 @@ h3 {
 }
 .bg-blue {
   color: white;
-  background-color: blue;
+  background-color: #347ef5;
 }
 
 .bg-indigo {
@@ -9905,12 +9905,12 @@ h3 {
 
 .bg-purple {
   color: white;
-  background-color: purple;
+  background-color: #c85dc8;
 }
 
 .bg-pink {
   color: #212529;
-  background-color: pink;
+  background-color: #f08f9f;
 }
 
 .bg-red {
@@ -9920,7 +9920,7 @@ h3 {
 
 .bg-orange {
   color: #212529;
-  background-color: #fbba40;
+  background-color: #f5b030;
 }
 
 .bg-yellow {
@@ -9960,27 +9960,27 @@ h3 {
 
 .bg-blue.darken-0 {
   color: white;
-  background-color: blue;
+  background-color: #347ef5;
 }
 
 .bg-blue.darken-10 {
   color: white;
-  background-color: #0000cc;
+  background-color: #0c61ea;
 }
 
 .bg-blue.darken-20 {
   color: white;
-  background-color: #000099;
+  background-color: #094dba;
 }
 
 .bg-blue.darken-30 {
   color: white;
-  background-color: #000066;
+  background-color: #073989;
 }
 
 .bg-blue.darken-40 {
   color: white;
-  background-color: #000033;
+  background-color: #042559;
 }
 
 .bg-indigo.darken-0 {
@@ -10010,52 +10010,52 @@ h3 {
 
 .bg-purple.darken-0 {
   color: white;
-  background-color: purple;
+  background-color: #c85dc8;
 }
 
 .bg-purple.darken-10 {
   color: white;
-  background-color: #4d004d;
+  background-color: #b53db5;
 }
 
 .bg-purple.darken-20 {
   color: white;
-  background-color: #1a001a;
+  background-color: #8f308f;
 }
 
 .bg-purple.darken-30 {
   color: white;
-  background-color: black;
+  background-color: #692369;
 }
 
 .bg-purple.darken-40 {
   color: white;
-  background-color: black;
+  background-color: #421742;
 }
 
 .bg-pink.darken-0 {
   color: #212529;
-  background-color: pink;
+  background-color: #f08f9f;
 }
 
 .bg-pink.darken-10 {
-  color: #212529;
-  background-color: #ff8da1;
+  color: white;
+  background-color: #ea6278;
 }
 
 .bg-pink.darken-20 {
   color: white;
-  background-color: #ff5a77;
+  background-color: #e43552;
 }
 
 .bg-pink.darken-30 {
   color: white;
-  background-color: #ff274d;
+  background-color: #cb1b38;
 }
 
 .bg-pink.darken-40 {
   color: white;
-  background-color: #f3002a;
+  background-color: #9e152c;
 }
 
 .bg-red.darken-0 {
@@ -10085,27 +10085,27 @@ h3 {
 
 .bg-orange.darken-0 {
   color: #212529;
-  background-color: #fbba40;
+  background-color: #f5b030;
 }
 
 .bg-orange.darken-10 {
   color: #212529;
-  background-color: #faa80e;
+  background-color: #e79a0b;
 }
 
 .bg-orange.darken-20 {
   color: white;
-  background-color: #d18a04;
+  background-color: #b67909;
 }
 
 .bg-orange.darken-30 {
   color: white;
-  background-color: #9f6903;
+  background-color: #865906;
 }
 
 .bg-orange.darken-40 {
   color: white;
-  background-color: #6d4802;
+  background-color: #553904;
 }
 
 .bg-yellow.darken-0 {
@@ -10285,27 +10285,27 @@ h3 {
 
 .bg-blue.lighten-0 {
   color: white;
-  background-color: blue;
+  background-color: #347ef5;
 }
 
 .bg-blue.lighten-10 {
-  color: white;
-  background-color: #3333ff;
+  color: #212529;
+  background-color: #659df7;
 }
 
 .bg-blue.lighten-20 {
-  color: white;
-  background-color: #6666ff;
+  color: #212529;
+  background-color: #95bcfa;
 }
 
 .bg-blue.lighten-30 {
   color: #212529;
-  background-color: #9999ff;
+  background-color: #c6dbfc;
 }
 
 .bg-blue.lighten-40 {
   color: #212529;
-  background-color: #ccccff;
+  background-color: #f6faff;
 }
 
 .bg-indigo.lighten-0 {
@@ -10335,42 +10335,42 @@ h3 {
 
 .bg-purple.lighten-0 {
   color: white;
-  background-color: purple;
+  background-color: #c85dc8;
 }
 
 .bg-purple.lighten-10 {
-  color: white;
-  background-color: #b300b3;
+  color: #212529;
+  background-color: #d583d5;
 }
 
 .bg-purple.lighten-20 {
-  color: white;
-  background-color: #e600e6;
+  color: #212529;
+  background-color: #e2a9e2;
 }
 
 .bg-purple.lighten-30 {
-  color: white;
-  background-color: #ff1aff;
+  color: #212529;
+  background-color: #efcfef;
 }
 
 .bg-purple.lighten-40 {
   color: #212529;
-  background-color: #ff4dff;
+  background-color: #fcf5fc;
 }
 
 .bg-pink.lighten-0 {
   color: #212529;
-  background-color: pink;
+  background-color: #f08f9f;
 }
 
 .bg-pink.lighten-10 {
   color: #212529;
-  background-color: #fff3f5;
+  background-color: #f6bcc6;
 }
 
 .bg-pink.lighten-20 {
   color: #212529;
-  background-color: white;
+  background-color: #fce9ec;
 }
 
 .bg-pink.lighten-30 {
@@ -10410,27 +10410,27 @@ h3 {
 
 .bg-orange.lighten-0 {
   color: #212529;
-  background-color: #fbba40;
+  background-color: #f5b030;
 }
 
 .bg-orange.lighten-10 {
   color: #212529;
-  background-color: #fccc72;
+  background-color: #f7c361;
 }
 
 .bg-orange.lighten-20 {
   color: #212529;
-  background-color: #fddea4;
+  background-color: #fad591;
 }
 
 .bg-orange.lighten-30 {
   color: #212529;
-  background-color: #fef0d6;
+  background-color: #fce8c2;
 }
 
 .bg-orange.lighten-40 {
   color: #212529;
-  background-color: white;
+  background-color: #fefaf3;
 }
 
 .bg-yellow.lighten-0 {
@@ -10693,6 +10693,26 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+.Pink {
+  background-color: #f08f9f;
+}
+
+.Orange {
+  background-color: #f5b030;
+}
+
+.Green {
+  background-color: #50b950;
+}
+
+.Purple {
+  background-color: #c85dc8;
+}
+
+.Blue {
+  background-color: #347ef5;
 }
 
 /*# sourceMappingURL=main.css.map */

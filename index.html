@@ -24,12 +24,12 @@
     <main class="container-fluid">
         <div class="row" id="app">
             <div class="col">
-                <form onsubmit="app.listsController.createList()" class="text-light d-flex">
-                    <div class="form-group">
+                <form onsubmit="app.listsController.createList()" class="text-dark d-flex">
+                    <div class="form-group mx-2">
                         <label for="title">List Title</label>
                         <input type="text" name="title" id="title" class="form-control" placeholder="List Title..." required minlength="3" maxlength="15">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mx-2">
                         <label for="color">Color</label>
                         <select class="form-control" name="color" id="color">
                             <option>Blue</option>
@@ -40,7 +40,7 @@
                         </select>
                     </div>
                     <div class="d-flex">
-                        <button type="submit" class="btn btn-outline-success">Create List</button>
+                        <button type="submit" class="btn btn-outline-success my-3 mx-2">Create List</button>
                     </div>
                 </form>
             </div>
