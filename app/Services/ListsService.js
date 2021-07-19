@@ -1,6 +1,7 @@
 import { ProxyState } from "../AppState.js";
 import List from "../Models/List.js"
 import Task from "../Models/Task.js"
+import { saveState } from "../Utils/LocalStorage.js";
 
 class ListsService{
     //passed rawList and called function from the controller
@@ -21,6 +22,11 @@ class ListsService{
 
     removeTask(id){
         ProxyState.tasks = ProxyState.tasks.filter(task => task.id != id)
+    }
+     checked(bool, id){
+      ProxyState.tasks.find(i => i.id === id).checked = bool
+      saveState()
+      ProxyState.tasks = ProxyState.tasks
     }
 }
 

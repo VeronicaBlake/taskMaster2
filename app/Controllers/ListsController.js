@@ -54,5 +54,8 @@ export default class ListController{
     removeTask(id){
         listsService.removeTask(id)
     }
-}
 
+    checked(bool, id){
+      listsService.checked(bool, id)
+    }
+}

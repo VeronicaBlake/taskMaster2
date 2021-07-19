@@ -10,7 +10,11 @@ export default class Task{
     }
 
     get Template(){
-        return `<li>${this.name}
-         <span class="action" onclick="app.listsController.removeTask('${this.id}')">x</span></li>`
+    return `<ul class = "list-group">
+      <li class = "list-group-item"><input id = "box" type="checkbox"
+                    onclick="app.listsController.checked(this.checked, '${this.id}')" ${this.checked ? 'checked' : ''}> 
+      ${this.name} <i class="fas fa-times ml-2 text-danger" onclick="app.listsController.removeTask('${this.id}')"></i>
+      </li>
+      </ul>`
     }
 }
